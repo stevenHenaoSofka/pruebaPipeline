@@ -7,9 +7,13 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            junit 'build/jacocoHtml/*.html'
-        }
-    }
+
+    publishHTML([
+    allowMissing: false,
+    alwaysLinkToLastBuild: false,
+    keepAll: false,
+    reportDir: 'build/jacocoHtml',
+    reportFiles: 'index.html',
+    reportName: 'HTML Report',
+    reportTitles: ''])
 }
