@@ -46,6 +46,7 @@
       <change beforePath="$PROJECT_DIR$/Ventas/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ventas/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Ventas/src/main/java/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +76,22 @@
         <task path="$PROJECT_DIR$/Calculadora">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -137,7 +151,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -157,7 +170,7 @@
       <recent name="D:\Documentos\IdeaProjects\UDEA\Refactoring\Calculadora\pipeline" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacionTest.debeRetornar4CuandoSume2y2">
+  <component name="RunManager" selected="JUnit.OperacionTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="Calculadora" />
@@ -186,8 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OperacionTest.debeRetornar4CuandoSume2y2" />
         <item itemvalue="JUnit.OperacionTest" />
+        <item itemvalue="JUnit.OperacionTest.debeRetornar4CuandoSume2y2" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -204,22 +217,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1618780197178">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1618782643298">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618780197178" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1618780197178">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618782643298" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1618782643297">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618780197178" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1618780197178">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618782643297" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1618782643297">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618780197178" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1618780197178">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618782643297" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1618782643297">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618780197178" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/1920.41.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1618782643297" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1618764364294">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
