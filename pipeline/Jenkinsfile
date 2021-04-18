@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                dir("Calculadora"){
+                dir("${workspace}/$pipeline-yml/Calculadora"){
                     sh "pwd"
                 }
                 sh './gradlew check'
