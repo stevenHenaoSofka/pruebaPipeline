@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OperacionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-18T21:51:40" hostname="PSOFKA0168" time="0.012">
+  <properties/>
+  <testcase name="debeRetornar4CuandoSume2y2" classname="OperacionTest" time="0.01"/>
+  <testcase name="debeRetornar15CuandoMultiplique3y5" classname="OperacionTest" time="0.0"/>
+  <testcase name="debeRetornarErrorCuandoIntentaAccederAlConstructor" classname="OperacionTest" time="0.001"/>
+  <testcase name="debeRetornar2CuandoReste5y3" classname="OperacionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
