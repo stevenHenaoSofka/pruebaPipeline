@@ -7,26 +7,24 @@ pipeline:
     none:
   stages:
     - stage: TestBack
-      jobs:
-        - job: OrderEventTestRunner
-          steps:
+      steps:
 
 
-            - task: Gradle@1
-              displayName: 'gradlew test  --tests=OperacionTest'
-              inputs:
-                gradleWrapperFile: '$(System.DefaultWorkingDirectory)/gradlew'
-                tasks: 'clean test --tests=OperacionTest --info'
-                workingDirectory: '$(System.DefaultWorkingDirectory)'
-                testResultsFiles: '**/TEST-*.xml'
+        - task: Gradle@1
+          displayName: 'gradlew test  --tests=OperacionTest'
+          inputs:
+            gradleWrapperFile: '$(System.DefaultWorkingDirectory)/gradlew'
+            tasks: 'clean test --tests=OperacionTest --info'
+            workingDirectory: '$(System.DefaultWorkingDirectory)'
+            testResultsFiles: '**/TEST-*.xml'
 
 
-            - task: PublishPipelineArtifact@1
-              displayName: 'Publish Pipeline Artifact'
-              inputs:
-                targetPath: '$(System.DefaultWorkingDirectory)/build/reports/tests/test'
-                artifact: AccountEvidences
-              continueOnError: true
-              condition: always()
+        - task: PublishPipelineArtifact@1
+          displayName: 'Publish Pipeline Artifact'
+          inputs:
+            targetPath: '$(System.DefaultWorkingDirectory)/build/reports/tests/test'
+            artifact: AccountEvidences
+          continueOnError: true
+          condition: always()
 
 
