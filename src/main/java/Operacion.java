@@ -1,6 +1,6 @@
 public class Operacion {
     //prueba
-
+       //prueba
     public Operacion() {
         throw new IllegalStateException("Utility class");
     }
